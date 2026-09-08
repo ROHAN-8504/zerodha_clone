@@ -1,0 +1,42 @@
+body{
+    text-align: center;
+}
+
+button{
+    color: white;
+    background-color: rgb(74, 204, 255);
+    padding: 10px 30px;
+    border-radius: 10px;
+   
+}
+
+
+button:hover{
+     color: white;
+    background-color: black;
+    padding: 10px 30px;
+    border-radius: 10px;
+}
+
+iframe{
+    border-radius: 20px;
+}
+
+header{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+#logoimage{
+    height: 50px;
+    width: 125px;
+}
+nav{
+    display: flex;
+    gap: 30px;
+}
+#tutorials{
+    display: flex;
+    gap: 30px;
+    flex-wrap: wrap;
+}
